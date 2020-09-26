@@ -6,7 +6,7 @@ In this demo app `UICollectionViewCompositionalLayout` is used to compose two se
 
 The `ItemIdentifiers` are of different types, namely a `Tag` type and an `Article` type.
 
-The `UICollectionDiffableDataSource` is made to work with both types by making the `ItemIdentifier` a `AnyHashable` type. 
+The `UICollectionDiffableDataSource` is made to work with both types by making the `ItemIdentifier` an `AnyHashable` type. 
 
 ```swift 
 UICollectionViewDiffableDataSource<SectionKind, AnyHashable> 

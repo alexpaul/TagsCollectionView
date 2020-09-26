@@ -12,6 +12,8 @@ The `UICollectionDiffableDataSource` is made to work with both types by making t
 UICollectionViewDiffableDataSource<SectionKind, AnyHashable> 
 ```
 
+> Apple documentation: The AnyHashable type forwards equality comparisons and hashing operations to an underlying hashable value, hiding the type of the wrapped value. [AnyHashable documentation](https://developer.apple.com/documentation/swift/anyhashable).
+
 In the data soruce configuration the types are type cast accordingly and the snapshot applied. 
 
 ```swift 
